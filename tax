@@ -1,0 +1,9 @@
+# Get user input for annual income and tax rate
+annual_income = float(input('Enter your annual income: '))
+tax_rate = float(input('Enter your tax rate (%): '))
+
+# Calculate tax amount
+tax_amount = annual_income * (tax_rate / 100)
+
+# Display tax refund amount
+print('Your tax refund amount is: $', tax_amount)
