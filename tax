@@ -1,4 +1,4 @@
-# Get user input for annual income and tax rate
+# Get user input for annual income and tax rate 
 annual_income = float(input('Enter your annual income: '))
 tax_rate = float(input('Enter your tax rate (%): '))
 
