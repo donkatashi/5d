@@ -5,5 +5,5 @@ tax_rate = float(input('Enter your tax rate (%): '))
 # Calculate tax amount
 tax_amount = annual_income * (tax_rate / 100)
 
-# Display tax refund amount
+# Display tax refund amount here
 print('Your tax refund amount is: $', tax_amount)
